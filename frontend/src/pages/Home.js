@@ -10,7 +10,7 @@ const Home = () => {
 
   useEffect(() => {
     const fetchWorkouts = async () => {
-      const response = await fetch("/api/workouts");
+      const response = await fetch("https://note-taking-app-for-gym-5974.vercel.app/api/workouts");
       const json = await response.json();
 
       if (response.ok) {

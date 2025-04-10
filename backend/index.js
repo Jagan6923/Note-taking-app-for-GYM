@@ -12,8 +12,8 @@ const app = express();
 app.use(
     cors({
         origin: [
-            "http://localhost:3000", // local React frontend
-            "https://cadd-tution-project-rnoe.vercel.app", // production frontend (optional)
+            "http://localhost:3000",
+            "https://note-taking-app-for-gym-5974.vercel.app/"
         ],
         methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
         allowedHeaders: ["Content-Type", "Authorization"],
